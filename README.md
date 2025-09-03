@@ -1,10 +1,13 @@
 📊 Netflix Movies & TV Shows SQL Analysis
+
+
 📌 Project Overview
 
 This project analyzes the Netflix Titles dataset (netflix_titles.csv) using SQL in DataCamp Datalab.
 The dataset contains information about movies and TV shows available on Netflix, including their title, director, cast, country, release year, rating, and description.
 
 The goal of this project is to answer key business and content-related questions using SQL queries.
+
 
 📂 Dataset Details
 
@@ -37,6 +40,8 @@ duration → Duration in minutes (movies) or seasons (TV shows)
 listed_in → Genre(s)
 
 description → Short summary of the content
+
+
 
 📝 Key SQL Queries & Insights
 
@@ -80,6 +85,8 @@ Categorization by Keywords in Description
 
 Content labeled as “Bad” if description contains kill or violence, otherwise “Good”.
 
+
+
 ⚙️ Tech Stack
 
 SQL Engine: Mysql
@@ -88,6 +95,7 @@ Dataset Source: Netflix Titles Dataset (CSV format)
 
 Platform: DataCamp Datalab Notebook
 
+
 🚀 How to Run
 
 Upload netflix_titles.csv into Datalab.
@@ -95,6 +103,7 @@ Upload netflix_titles.csv into Datalab.
 Use SQL cells to execute queries.
 
 Modify queries as needed (e.g., change year, actor name, country).
+
 
 📈 Future Improvements
 
