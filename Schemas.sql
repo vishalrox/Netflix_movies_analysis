@@ -1,13 +1,13 @@
--- SCHEMAS of Netflix
+-- SCHEMAS of Netflix_titles
 
-DROP TABLE IF EXISTS netflix;
-CREATE TABLE netflix
+DROP TABLE IF EXISTS netflix_titles;
+CREATE TABLE netflix_titles
 (
 	show_id	VARCHAR(5),
-	type    VARCHAR(10),
+	show_type  VARCHAR(10),
 	title	VARCHAR(250),
 	director VARCHAR(550),
-	casts	VARCHAR(1050),
+	casting	VARCHAR(1050),
 	country	VARCHAR(550),
 	date_added	VARCHAR(55),
 	release_year	INT,
@@ -17,4 +17,4 @@ CREATE TABLE netflix
 	description VARCHAR(550)
 );
 
-SELECT * FROM netflix;
+SELECT * FROM netflix_titles;
